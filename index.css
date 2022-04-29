@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+}
+
+.background {
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+}
+
+/* box in center of page */
+.container {
+    align-items: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    
+}
+
+/* Sign in */
+h1 {
+    text-align: center;
+    font-family: copperplate;
+}
+
+/* Log in area with inputs */
+.form {
+    background-color: #CCCCFF;
+    display: flex;
+    flex-direction: column;
+    min-width: 40%;
+    min-height: 30%;
+    padding: 25px;
+    border-radius: 5px; 
+    justify-content: center;
+    row-gap: 20px;
+    align-items: center;
+
+    /* box shadow */
+    box-shadow: 8px 6px 46px 0px rgba(0,0,0,0.75);
+
+}
+
+input {
+    width: 99%;
+    min-height: 30px;
+    margin: 20px 0;   
+    font-family: copperplate;
+}
+
+/* submit button */
+button {
+    color: white;
+    background-color: #0781B1;
+    font-family: copperplate;
+    font-size: 18px;
+    flex-direction: column;
+    flex-flow: wrap row;
+    width: 101%;
+    min-height: 40px;
+    margin: 20px 0;
+}
+
+/* hover over button changes color */
+button:hover {
+    background-color:  #000000;
+}
